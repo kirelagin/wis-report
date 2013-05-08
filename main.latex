@@ -20,6 +20,9 @@
 \section{Индексирование и поиск}
 \input{Search.latex}
 
+\section{Инфраструктура}
+\input{Infrastructure.latex}
+
 \phantomsection
 \addcontentsline{toc}{section}{Заключение}
 \section*{Заключение}
