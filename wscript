@@ -16,8 +16,8 @@ def process_pandoc(self, node):
         bib = []
         bib_str = ""
     out_source = node.change_ext('.latex', '.pd')
-    cls = Task.task_factory('pandoc', 
-        '${PANDOC} -S -o ${TGT} ${tsk.bib_str} --natbib ${SRC[0].abspath()}',
+    Task.task_factory('pandoc',
+        '${PANDOC} -S -o ${TGT} ${tsk.bib_str} ${SRC[0].abspath()}',
         shell        = False,
         ext_in       = '.pd', 
         ext_out      = '.latex', 
