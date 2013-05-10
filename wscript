@@ -34,7 +34,7 @@ def kirill(bld):
         features = 'tex',
         type     = 'pdflatex',
         source   = 'kirill.latex',
-        target   = 'main.pdf',
+        target   = 'kirill.pdf',
        )
 
 def nikita(bld):
@@ -46,7 +46,7 @@ def nikita(bld):
         features = 'tex',
         type     = 'pdflatex',
         source   = 'nikita.latex',
-        target   = 'main.pdf',
+        target   = 'nikita.pdf',
        )
 
 
