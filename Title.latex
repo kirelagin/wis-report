@@ -16,11 +16,13 @@
 
 \vspace{2em}
 
-Елагин К. В. \hspace{6em} Офицеров Н. А.
+\makeatletter
+\@author
+\makeatother
 
 \vfill
 
 Санкт-Петербург\\
-2013
+\the\year
 \end{titlepage}
 \addtocounter{page}{1}
