@@ -26,7 +26,7 @@ def process_pandoc(self, node):
     tsk.bib_str = bib_str
 
 def build(bld):
-    bld(source='Introduction.pd Index.pd Highlight.pd '
+    bld(source='Introduction.pd Index.pd Output.pd '
         'Search.pd Infrastructure.pd Conclusion.pd', bibliography='bib.bib')
 
     bld.add_group()

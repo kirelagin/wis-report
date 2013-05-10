@@ -17,8 +17,8 @@
 \section{Нечеткий индекс}
 \input{Index.latex}
 
-\section{Подсветка найденных ключевых слов}
-\input{Highlight.latex}
+\section{Обработка результатов перед выводом}
+\input{Output.latex}
 
 %\section{Индексирование и поиск}
 %\input{Search.latex}
