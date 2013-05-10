@@ -38,7 +38,7 @@ def kirill(bld):
        )
 
 def nikita(bld):
-    bld(source='Introduction.pd Index.pd Infrastructure.pd Conclusion.pd', bibliography='bib.bib')
+    bld(source='Introduction.pd Index.pd Highlight.pd Infrastructure.pd Conclusion.pd', bibliography='bib.bib')
 
     bld.add_group()
 
