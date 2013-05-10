@@ -1,0 +1,34 @@
+\input{preamble.latex}
+
+\author{Елагин К. В., гр. 4539}
+
+\begin{document}
+
+\input{Title.latex}
+
+\tableofcontents
+\clearpage
+
+\phantomsection
+\addcontentsline{toc}{section}{Введение}
+\section*{Введение}
+\input{Introduction.latex}
+
+%\section{Нечеткий индекс}
+%\input{Index.latex}
+
+\section{Индексирование и поиск}
+\input{Search.latex}
+
+\section{Инфраструктура}
+\input{Infrastructure.latex}
+
+\phantomsection
+\addcontentsline{toc}{section}{Заключение}
+\section*{Заключение}
+\input{Conclusion.latex}
+
+\clearpage
+\bibliography{bib}
+
+\end{document}

@@ -25,14 +25,31 @@ def process_pandoc(self, node):
     tsk = self.create_task('pandoc', [node] + bib, out_source)
     tsk.bib_str = bib_str
 
-def build(bld):
-    bld(source='Introduction.pd Index.pd Search.pd Infrastructure.pd Conclusion.pd', bibliography='bib.bib')
+def kirill(bld):
+    bld(source='Introduction.pd Search.pd Infrastructure.pd Conclusion.pd', bibliography='bib.bib')
 
     bld.add_group()
 
     bld(
         features = 'tex',
         type     = 'pdflatex',
-        source   = 'main.latex',
+        source   = 'kirill.latex',
         target   = 'main.pdf',
        )
+
+def nikita(bld):
+    bld(source='Introduction.pd Index.pd Infrastructure.pd Conclusion.pd', bibliography='bib.bib')
+
+    bld.add_group()
+
+    bld(
+        features = 'tex',
+        type     = 'pdflatex',
+        source   = 'nikita.latex',
+        target   = 'main.pdf',
+       )
+
+
+def build(bld):
+    kirill(bld)
+    nikita(bld)

@@ -1,6 +1,6 @@
 \input{preamble.latex}
 
-\author{Кирилл Елагин}
+\author{Офицеров Н. А., гр. 4538}
 
 \begin{document}
 
@@ -17,8 +17,8 @@
 \section{Нечеткий индекс}
 \input{Index.latex}
 
-\section{Индексирование и поиск}
-\input{Search.latex}
+%\section{Индексирование и поиск}
+%\input{Search.latex}
 
 \section{Инфраструктура}
 \input{Infrastructure.latex}
